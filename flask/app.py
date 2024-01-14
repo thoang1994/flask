@@ -36,6 +36,7 @@ class mysql_data:
 # password = "123456"
 # database_name = "user_data"
 # table_name = "customers"
+        
 host = "database-1.c1oky8gamqpg.ap-southeast-1.rds.amazonaws.com"
 user = "admin"
 password = "km22071994"
