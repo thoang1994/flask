@@ -3,7 +3,7 @@ import mysql.connector
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_mysqldb import MySQL
 import MySQLdb.cursors
-import telebot,re, random
+# import telebot,re, random
 
 class mysql_data:
     def __init__(self, host=None, user=None, password=None, database=None, table=None):
@@ -31,6 +31,11 @@ class mysql_data:
         cursor.close()
 
 
+# host = "localhost"
+# user = "root"
+# password = "123456"
+# database_name = "user_data"
+# table_name = "customers"
 host = "database-1.c1oky8gamqpg.ap-southeast-1.rds.amazonaws.com"
 user = "admin"
 password = "km22071994"
