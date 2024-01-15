@@ -3,7 +3,7 @@ import mysql.connector
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_mysqldb import MySQL
 import MySQLdb.cursors
-# import telebot,re, random
+import re, random
 
 class mysql_data:
     def __init__(self, host=None, user=None, password=None, database=None, table=None):
